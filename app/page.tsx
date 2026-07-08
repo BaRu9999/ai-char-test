@@ -158,7 +158,7 @@ export default function Home() {
       <section className="card">
         <header className="header">
           <div className="brand">祇園茶寮 × タニタカフェ</div>
-          <div className="title">あなたを和茶に<br />たとえると？</div>
+          <div className="title">あなたをお茶に<br />たとえると？</div>
         </header>
 
         <div className="content">
@@ -166,7 +166,7 @@ export default function Home() {
             <div>
               <div className="lead">あなたの今の気分を、<br />一杯のお茶にたとえると？</div>
               <div className="text">
-                7つの質問から、あなたにぴったりの和茶タイプをAIが診断。<br />
+                7つの質問から、あなたにぴったりの茶タイプをAIが診断。<br />
                 結果に合わせて、今日おすすめの組み合わせもご提案します。
               </div>
               <button className="btn" type="button" onClick={startQuiz}>診断をはじめる</button>
@@ -197,7 +197,7 @@ export default function Home() {
             <div className="loadingBox">
               <div className="loadingTitle">AIが診断中...</div>
               <div className="text">
-                回答内容をもとに、あなたに合う和茶タイプとおすすめセットを作成しています。
+                回答内容をもとに、あなたに合う茶タイプとおすすめセットを作成しています。
               </div>
               <div className="loadingDots"><span></span><span></span><span></span></div>
             </div>
